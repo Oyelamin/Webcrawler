@@ -7,7 +7,7 @@ use WebCrawler\Crawl;
 $websiteUrl = 'http://www.spiegel.de'; // Any url of your choice - Required
 $maxPages = 10; // This can increase/decrease - Optional
 $maxProcesses = 5; // Can increase/decrease - Optional
-$folderName = "MyCustompages"; // - Optional
+$folderName = "pages"; // - Optional
 $fileExtension = "html"; // txt,htm,css, etc... - Optional
 $crawl = new Crawl($websiteUrl, $maxPages, $maxProcesses, $folderName, $fileExtension);
 

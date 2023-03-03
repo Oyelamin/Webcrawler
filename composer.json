@@ -1,0 +1,21 @@
+{
+  "name": "bee-tec/web-crawler",
+  "description": "A web crawler built for a minor task",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Blessing Ajala",
+      "email": "blessingcodephp@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WebCrawler\\": "src/"
+    }
+  }
+}
